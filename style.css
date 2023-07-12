@@ -1091,6 +1091,11 @@ footer i:hover {
         margin-top: 20px;
     }
 
+    .video
+    {
+        width: 100%;
+    }
+
     
 
 }
@@ -1242,10 +1247,6 @@ footer i:hover {
         width: 100%;
     }
 
-    .about div {
-        padding-left: 0px;
-    }
-
     .about h2 {
         font-size: 2rem;
     }
@@ -1258,9 +1259,8 @@ footer i:hover {
         font-size: 1rem;
     }
 
-    .video
-    {
-        width: 100%;
+    .about div {
+        padding-left: 0px;
     }
 
     .about-app h1 {
