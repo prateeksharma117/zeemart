@@ -836,7 +836,77 @@ footer i:hover {
 }
 
 
+.about-header
+{
+    background-image: url("https://img.freepik.com/free-vector/orange-question-mark-background-with-text-space_1017-27394.jpg?w=740&t=st=1689158591~exp=1689159191~hmac=a398800bba361fbb7aff88e031a5be00cfd02d2df84ad826600fdb857b31f9b3");
+}
 
+.about
+{
+    display: flex;
+    align-items: center;
+    background-color: var(--body-color);
+}
+
+.about img
+{
+    width: 50%;
+    height: auto;
+    mix-blend-mode: multiply;
+}
+
+.about div
+{
+    padding-left: 40px;
+}
+
+.about h2
+{
+    font-size: 3rem;
+    color: var(--allText-color);
+    padding: 0 0 20px 0;
+}
+
+.about p
+{
+    font-size: 1.5rem;
+    color: var(--allText-color);
+    padding: 0 0 20px 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+.about abbr
+{
+    font-size: 1.7rem;
+    color: var(--allText-color);
+    padding: 0 0 20px 0;
+}
+
+.about-app
+{
+    text-align: center;
+    background-color: var(--body-color);
+}
+
+.about-app h1
+{
+    font-size: 3rem;
+    color: var(--allText-color);
+}
+.video
+{
+    width: 70%;
+    height: 100%;
+    margin: 30px auto 0 auto;
+}
+
+.video video
+{
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+}
 
 
 
@@ -1007,6 +1077,21 @@ footer i:hover {
         padding-bottom: 0;
     }
 
+    .about {
+        flex-direction: column;
+    }
+
+    .about img
+    {
+        width: 100%;
+    }
+
+    .about h2
+    {
+        margin-top: 20px;
+    }
+
+    
 
 }
 
@@ -1156,6 +1241,32 @@ footer i:hover {
     .blog-details {
         width: 100%;
     }
+
+    .about div {
+        padding-left: 0px;
+    }
+
+    .about h2 {
+        font-size: 2rem;
+    }
+
+    .about p {
+        font-size: 1.2rem;
+    }
+
+    .about abbr {
+        font-size: 1rem;
+    }
+
+    .video
+    {
+        width: 100%;
+    }
+
+    .about-app h1 {
+        font-size: 2rem;
+    }
+
 
 
 }
