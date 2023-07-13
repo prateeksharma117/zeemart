@@ -2,7 +2,7 @@
     margin: 0%;
     padding: 0%;
     box-sizing: border-box;
-    font-family: 'Belanosima', sans-serif;
+    font-family: 'Roboto', sans-serif;
 
 }
 
@@ -441,7 +441,7 @@ hr {
     height: 30vh;
     background-size: cover;
     background-position: center;
-    padding: 25px;
+    padding: 10px;
     margin-top: 15px;
 }
 
@@ -837,6 +837,10 @@ footer i:hover {
 }
 
 
+/* ********************************************************about page style star from here 😺😺😺***************************************************** */
+
+
+
 .about-header {
     background-image: url("https://img.freepik.com/free-vector/orange-question-mark-background-with-text-space_1017-27394.jpg?w=740&t=st=1689158591~exp=1689159191~hmac=a398800bba361fbb7aff88e031a5be00cfd02d2df84ad826600fdb857b31f9b3");
 }
@@ -898,6 +902,12 @@ footer i:hover {
     height: 100%;
     border-radius: 20px;
 }
+
+
+/* ********************************************************contact page style star from here 😺😺😺***************************************************** */
+
+
+
 
 .contact-header {
     background-image: url("https://img.freepik.com/free-photo/portrait-young-people-with-thought-bubble_23-2149184861.jpg?w=1060&t=st=1689216335~exp=1689216935~hmac=5fa197f7ba0222c0b91b0cefcb28792ce635f70e0bae7ad0345c4909cf7993e4");
@@ -1040,6 +1050,188 @@ footer i:hover {
     font-size: 1.3rem;
     font-weight: 600;
 }
+
+
+
+/* ********************************************************cart page style star from here 😺😺😺***************************************************** */
+
+
+.cart-header
+{
+    background-image: url("https://img.freepik.com/free-psd/shoping-cart-isometric-3d-render-icon_47987-9068.jpg?w=740&t=st=1689247951~exp=1689248551~hmac=c66b487de3675df5e6716610f871f5947602ebd7a71a5dc8e6790ce9aea50812");
+}
+
+.cartSection
+{
+    background-color: var(--body-color);
+    overflow-x: auto;
+}
+
+.cartSection table
+{
+    width: 100%;
+    border-collapse: collapse;
+    table-layout: fixed;
+    white-space: nowrap;
+    color: var(--allText-color);
+}
+
+.cartSection table img
+{
+    width: 70px;
+}
+
+.cartSection table td:nth-child(1)
+{
+    width: 100px;
+    align-items: center;
+}
+
+.cartSection table td:nth-child(2)
+{
+    width: 150px;
+    align-items: center;
+}
+
+.cartSection table td:nth-child(3)
+{
+    width: 150px;
+    padding-right: 30px;
+    align-items: center;
+    white-space: nowrap;
+    overflow: hidden !important;
+    text-overflow: ellipsis;
+}
+
+.cartSection table td:nth-child(4),
+.cartSection table td:nth-child(5),
+.cartSection table td:nth-child(6)
+{
+    width: 150px;
+    align-items: center;
+}
+
+.cartSection table td:nth-child(5) input
+{
+    width: 70px;
+    padding: 10px 5px 10px 15px;
+}
+
+.cartSection table thead
+{
+    border: 1px solid var(--formBorder-color);
+    border-left: none;
+    border-right: none;
+}
+
+.cartSection table thead td
+{
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 1rem;
+    padding: 18px 0;
+}
+
+
+.cartSection table tbody tr td
+{
+    padding-top: 15px;
+}
+
+.cartSection table tbody td
+{
+    font-size: 1.1rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.totalPay 
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background-color: var(--body-color);
+}
+
+.coupon
+{
+    width: 50%;
+    margin-bottom: 30px;
+}
+
+.coupon h3,
+.subtotal h3
+{
+    padding-bottom: 15px;
+    font-size: 1.5rem;
+    color: var(--allText-color);
+}
+
+
+.coupon input
+{
+    padding: 10px 20px;
+    outline: none;
+    width: 60%;
+    margin-right: 10px;
+    border: 1px solid #e2e9e1;
+}
+
+.coupon button
+{
+    text-decoration: none;
+    padding: 10px 15px;
+    background-color: #088178;
+    font-size: 1rem;
+    color: #fff;
+    font-weight: 100;
+    border-radius: 4px;
+    outline: none;
+    border: none;
+}
+
+.subtotal
+{
+    width: 50%;
+    margin-bottom: 30px;
+    border: 1px solid #e2e9e1;
+    padding: 30px;
+    color: var(--allText-color);
+}
+
+.subtotal table
+{
+    border-collapse: collapse ;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.subtotal table td
+{
+    width: 50%;
+    border: 1px solid #e2e9e1;
+    padding: 10px;
+    font-size: 1.3rem;
+}
+
+.subtotal button
+{
+    text-decoration: none;
+    padding: 10px 15px;
+    background-color: #088178;
+    font-size: 1rem;
+    color: #fff;
+    font-weight: 100;
+    border-radius: 4px;
+    outline: none;
+    border: none;
+}
+
+
+
+
+
+
+
 
 
 
@@ -1426,8 +1618,22 @@ footer i:hover {
         margin-bottom: 30px;
     }
 
+    .totalPay 
+    {
+        flex-direction: column;
+        padding-top: 20px;
+    }
 
+    .coupon
+    {
+        width: 100%;
+    }
 
+    .subtotal
+    {
+        width: 100%;
+        padding: 15px;
+    }
 
 
 
@@ -1455,6 +1661,10 @@ footer i:hover {
 
     footer p {
         font-size: 1rem;
+    }
+
+    .coupon input {
+        width: 50%;
     }
 
 }

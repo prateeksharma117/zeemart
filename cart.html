@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+      </style>
+</head>
+
+<body>
+
+    <section class="header">
+
+        <a href=""> <img id="changeLogo" class="logo" src="./img/logo.png" alt=""> </a>
+
+        <div>
+            <ul class="nevbar" id="nev">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="shope.html">Shope</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a class="active" href="cart.html"><i class="fa-solid fa-lg fa-bag-shopping"></i>&nbsp;&nbsp;Cart</a></li>
+                <div class="changeThemeIcon">
+                    <li id="theme" class="themeOverview"><i class="fa-solid fa-lg fa-sun"></i></li>
+                </div>
+                <p id="closeNevbar" class="closeNev"><i class="fa-solid fa-lg fa-xmark"></i></p>
+            </ul>
+        </div>
+
+        <div class="mobile">
+            <a href=""><i class="fa-solid fa-lg fa-bag-shopping"></i></a>
+            <i id="bar" class="fa-solid fa-lg fa-bars"></i>
+        </div>
+
+
+    </section>
+
+    <section class="page-header cart-header">
+        <h2>#Checkout</h2>
+        <p>Proceed to checkout your add to cart products!</p>
+    </section>
+
+    <section class="cartSection section-p1">
+
+        <table width="100%">
+            <thead>
+                <tr>
+                    <td>REMOVE</td>
+                    <td>IMAGE</td>
+                    <td>PRODUCT</td>
+                    <td>PRICE</td>
+                    <td>QUANTITY</td>
+                    <td>SUBTOTAL</td>
+                </tr>
+            </thead>
+
+            
+            <tbody>
+                <tr>
+                    <td><i class="fa-solid fa-circle-xmark"></i></td>
+                    <td><img src="https://m.media-amazon.com/images/I/71On2XSPuRL._SY741._SX._UX._SY._UY_.jpg" alt=""></td>
+                    <td>Lymio Casual Shirt for Men|| Shirt for Men|| Men Stylish Shirt || Men Printed Shirt</td>
+                    <td>₹1300</td>
+                    <td><input type="number" value="1"></td>
+                    <td>₹1300</td>
+                </tr>
+
+                <tr>
+                    <td><i class="fa-solid fa-circle-xmark"></i></td>
+                    <td><img src="https://rukminim2.flixcart.com/image/832/832/kufuikw0/shirt/j/5/0/s-hlsh012786-highlander-original-imag7kcgyhkyr5wg.jpeg?q=70" alt=""></td>
+                    <td>Men Slim Fit Printed Cut Away Collar Casual Shirt</td>
+                    <td>₹575</td>
+                    <td><input type="number" value="1"></td>
+                    <td>₹575</td>
+                </tr>
+
+                <tr>
+                    <td><i class="fa-solid fa-circle-xmark"></i></td>
+                    <td><img src="https://rukminim2.flixcart.com/image/832/832/kw6pw280/t-shirt/t/n/z/m-lmts009218-locomotive-original-imag8x7uedhamzwy.jpeg?q=70" alt=""></td>
+                    <td>Men Printed Round Neck Cotton Blend Green T-Shirt</td>
+                    <td>₹408</td>
+                    <td><input type="number" value="1"></td>
+                    <td>₹408</td>
+                </tr>
+
+            </tbody>
+
+        </table>
+
+    </section>
+
+    <section class="totalPay section-p1">
+
+        <div class="coupon">
+            <h3>Appply Coupon</h3>
+            <input type="text" placeholder="Enter Your Coupon">
+            <button>Apply</button>
+        </div>
+
+        <div class="subtotal">
+            <h3>Cart Totals</h3>
+            <table>
+                <tr>
+                    <td>Cart Subtotal</td>
+                    <td>₹2283</td>
+                </tr>
+
+                <tr>
+                    <td>Shipping</td>
+                    <td>Free</td>
+                </tr>
+
+                <tr>
+                    <td><strong>Total</strong></td>
+                    <td>₹2283</td>
+                </tr>
+
+            </table>
+            <button>Proceed to checkout</button>
+        </div>
+
+    </section>
+
+
+    <hr>
+    <footer class="section-p1">
+
+        <div class="col">
+            <img id="footerLogo" class="logo downLogo" src="./img/logo.png" alt="">
+            <h4>Contact</h4>
+            <p><strong>Address: </strong>19141 Pine Ridge Circle, Anchorage AK 99516</p>
+            <p><strong>Phone: </strong>+15853042523/+14844731215</p>
+            <p><strong>Hours: </strong>10:00 - 18:00 Mon-Sat</p>
+            <div class="follow">
+                <h4>Follow us</h4>
+                <div class="icon">
+                    <i class="fa-brands fa-lg fa-facebook"></i>
+                    <i class="fa-brands fa-lg fa-square-instagram"></i>
+                    <i class="fa-brands fa-lg fa-twitter"></i>
+                    <i class="fa-brands fa-lg fa-youtube"></i>
+                    <i class="fa-brands fa-lg fa-pinterest"></i>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="col">
+            <h4>About</h4>
+            <a href="">About us</a>
+            <a href="">Delivery Information</a>
+            <a href="">Privacy Policy</a>
+            <a href="">Terms & Condition</a>
+            <a href="">Contact us</a>
+        </div>
+
+        <div class="col">
+            <h4>My Account</h4>
+            <a href="">Sign In</a>
+            <a href="">View Cart</a>
+            <a href="">My Wishlist</a>
+            <a href="">Track my Order</a>
+            <a href="">Help</a>
+        </div>
+
+
+        <div class="col install">
+            <h4>Install App</h4>
+            <p>From App Store or Google Play</p>
+            <div class="row">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT2H2Ip49iHc6wNhBuETh4a4aV3Rs6VybWkCSS1Q4HQuxGoF05zJuMojBFVvmAVNvFrdA&usqp=CAU"
+                    alt="">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0f/Available_on_the_App_Store_%28black%29_SVG.svg/640px-Available_on_the_App_Store_%28black%29_SVG.svg.png"
+                    alt="">
+            </div>
+            <p>Secured Payment Gateways</p>
+            <img src="./img/cardslogo.png" alt="">
+        </div>
+
+        <div class="copyright">
+            <p>Copyright © 2012 - 2023 TermsFeed®. All rights reserved.</p>
+        </div>
+
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
