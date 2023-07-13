@@ -371,7 +371,7 @@ hr {
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
-    background-image: url("https://img.freepik.com/free-photo/black-friday-sales-woman-doing-silence-gesture_23-2148674323.jpg?w=996&t=st=1688789730~exp=1688790330~hmac=ed2e8a22a5be02e303f63d54827025bcee91b800a6177189e492f1fdc9f362d8");
+    background-image: url("https://img.freepik.com/free-photo/young-woman-yellow-warm-sweater-with-megaphone-speaker-screaming-left-pointing-index-finger_343596-7143.jpg?w=1060&t=st=1689234553~exp=1689235153~hmac=3598e40c5a3a9e5d02541ebce35c50485c8808db51cb51e088e36873812412f7");
     min-width: 48%;
     height: 50vh;
     background-size: cover;
@@ -386,7 +386,7 @@ hr {
 }
 
 .banner-box2 {
-    background-image: url("https://img.freepik.com/free-photo/young-man-choosing-clothes-rack-showroom_23-2148175631.jpg?w=996&t=st=1688790762~exp=1688791362~hmac=2c98c4e8bc5ddcbe94b4af8e03e8cf8b1008af45263b352d073754eace118d4a");
+    background-image: url("https://img.freepik.com/free-photo/happy-attractive-young-man-with-bristle-hawaiian-shirt-pointing-side-copyspace-by-thumb-finger_295783-14185.jpg?w=1060&t=st=1689234457~exp=1689235057~hmac=d08c2bb60a872c0b7ab9f20a61b9fe69d422a7a64494ee99fea559a08536728f");
 }
 
 .banner-box h4 {
@@ -437,20 +437,20 @@ hr {
     flex-direction: column;
     flex-wrap: wrap;
     align-items: flex-start;
-    background-image: url("https://img.freepik.com/free-photo/pleased-caucasian-girl-looking-down-sad-black-haired-woman-posing-with-plant_197531-14058.jpg?size=626&ext=jpg&uid=R85205850&ga=GA1.1.1443225275.1688534000&semt=ais");
+    background-image: url("https://img.freepik.com/free-photo/graphic-tshirt-trendy-design-mockup-presented-wooden-hanger_460848-14045.jpg?w=826&t=st=1689233910~exp=1689234510~hmac=7c68528e73819e812d987d1946d3ae76fe4f030b15ca6196c5dbb6984d019400");
     height: 30vh;
     background-size: cover;
     background-position: center;
-    padding: 20px;
+    padding: 25px;
     margin-top: 15px;
 }
 
 .banner-boxes2 {
-    background-image: url("https://img.freepik.com/free-photo/three-students-winter-outfit-street_1303-19920.jpg?w=996&t=st=1688792115~exp=1688792715~hmac=5d6c94123c03b55fb0b7fcf1168fddb9d285385eef7a3a0c106cf51557507e20");
+    background-image: url("https://img.freepik.com/free-photo/medium-shot-girl-with-hat-copy-space_23-2148350092.jpg?w=1380&t=st=1689234004~exp=1689234604~hmac=e886303b33c84eeb5e82fd55ba475a861ef6d1aaf86afdebba71656d045d99c2");
 }
 
 .banner-boxes3 {
-    background-image: url("https://img.freepik.com/free-photo/smiling-young-loving-couple-gray-background_171337-12543.jpg?size=626&ext=jpg&uid=R85205850&ga=GA1.1.1443225275.1688534000&semt=ais");
+    background-image: url("https://img.freepik.com/free-photo/shirt-mockup-concept-with-plain-clothing_23-2149448756.jpg?w=1060&t=st=1689234148~exp=1689234748~hmac=cbeb432fcea2b627914b64eb6019446673f1995f8e516b9e5dbf835f9b562cb2");
 }
 
 .banner-boxes h2 {
@@ -1153,7 +1153,7 @@ footer i:hover {
 
     .banner-boxes {
         width: 30%;
-        height: auto;
+        height: 15vh;
     }
 
     .banner-boxes h2 {
