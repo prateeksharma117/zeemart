@@ -14,6 +14,7 @@
     --body-color: #E3E6F3;
     --pink: #f7dde3;
     --productBorder-color: #E3E6F3;
+    --formBorder-color: #9da4cc;
 
 }
 
@@ -26,6 +27,7 @@
     --body-color: #181a1f;
     --pink: #f7dde3;
     --productBorder-color: #1f2229;
+    --formBorder-color: #e1e1e1;
 }
 
 /* loader ⏲️ */
@@ -37,7 +39,7 @@
 }
 
 hr {
-    background: silver;
+    background: var(--formBorder-color);
     height: 2px;
     font-weight: 900;
     border: none;
@@ -836,39 +838,33 @@ footer i:hover {
 }
 
 
-.about-header
-{
+.about-header {
     background-image: url("https://img.freepik.com/free-vector/orange-question-mark-background-with-text-space_1017-27394.jpg?w=740&t=st=1689158591~exp=1689159191~hmac=a398800bba361fbb7aff88e031a5be00cfd02d2df84ad826600fdb857b31f9b3");
 }
 
-.about
-{
+.about {
     display: flex;
     align-items: center;
     background-color: var(--body-color);
 }
 
-.about img
-{
+.about img {
     width: 50%;
     height: auto;
     mix-blend-mode: multiply;
 }
 
-.about div
-{
+.about div {
     padding-left: 40px;
 }
 
-.about h2
-{
+.about h2 {
     font-size: 3rem;
     color: var(--allText-color);
     padding: 0 0 20px 0;
 }
 
-.about p
-{
+.about p {
     font-size: 1.5rem;
     color: var(--allText-color);
     padding: 0 0 20px 0;
@@ -876,41 +872,175 @@ footer i:hover {
 }
 
 
-.about abbr
-{
+.about abbr {
     font-size: 1.7rem;
     color: var(--allText-color);
     padding: 0 0 20px 0;
 }
 
-.about-app
-{
+.about-app {
     text-align: center;
     background-color: var(--body-color);
 }
 
-.about-app h1
-{
+.about-app h1 {
     font-size: 3rem;
     color: var(--allText-color);
 }
-.video
-{
+
+.video {
     width: 70%;
     height: 100%;
     margin: 30px auto 0 auto;
 }
 
-.video video
-{
+.video video {
     width: 100%;
     height: 100%;
     border-radius: 20px;
 }
 
+.contact-header {
+    background-image: url("https://img.freepik.com/free-photo/portrait-young-people-with-thought-bubble_23-2149184861.jpg?w=1060&t=st=1689216335~exp=1689216935~hmac=5fa197f7ba0222c0b91b0cefcb28792ce635f70e0bae7ad0345c4909cf7993e4");
 
+}
 
+.contact {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: var(--body-color);
+}
 
+.details {
+    width: 40%;
+}
+
+.details span,
+.form-detail span {
+    font-size: 1rem;
+    color: var(--allText-color);
+}
+
+.details h2,
+.form-detail h2 {
+    font-size: 2rem;
+    color: var(--allText-color);
+    padding: 15px 0;
+}
+
+.details h3 {
+    font-size: 1.2rem;
+    color: var(--allText-color);
+    padding: 15px 0;
+}
+
+.details p {
+    font-size: 1.1rem;
+    color: var(--allText-color);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 100;
+    margin: 0;
+}
+
+.details li {
+    list-style: none;
+    display: flex;
+    padding: 15px 0;
+}
+
+.details i {
+    font-size: 1.4rem;
+    padding-right: 22px;
+    color: var(--allText-color);
+}
+
+.map {
+    width: 55%;
+    height: auto;
+}
+
+.map iframe {
+    width: 100%;
+}
+
+.form-detail
+{
+    background-color: var(--body-color);
+}
+
+.form-container
+{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+    padding: 40px;
+    border: 1px solid var(--formBorder-color);
+}
+
+.form-detail form {
+    width: 65%;
+    display: flex;
+    flex-direction: column;
+    align-items: self-start;
+}
+
+.form-detail input,
+.form-detail textarea {
+    width: 100%;
+    padding: 12px 15px;
+    outline: none;
+    margin-bottom: 20px;
+    border: 1px solid #e1e1e1;
+}
+
+.form-detail button {
+    text-decoration: none;
+    padding: 10px 15px;
+    background-color: #088178;
+    font-size: 1rem;
+    color: #fff;
+    font-weight: 100;
+    border-radius: 4px;
+    outline: none;
+    border: none;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.people div
+{
+    padding-bottom: 25px;
+
+}
+
+.people div img
+{
+    width: 70px;
+    height:70px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 15px;
+}
+
+.people div 
+{
+    padding-bottom: 25px;
+}
+
+.people p 
+{
+    margin: 0;
+    font-size: 1rem;
+    line-height: 25px;
+    color: var(--allText-color);
+}
+
+.people span 
+{
+    display: block;
+    font-size: 1.3rem;
+    font-weight: 600;
+}
 
 
 
@@ -1081,22 +1211,23 @@ footer i:hover {
         flex-direction: column;
     }
 
-    .about img
-    {
+    .about img {
         width: 100%;
     }
 
-    .about h2
-    {
+    .about h2 {
         margin-top: 20px;
     }
 
-    .video
-    {
+    .video {
         width: 100%;
     }
 
-    
+    .form-detail form {
+        width: 56%;
+        
+    }
+
 
 }
 
@@ -1227,7 +1358,7 @@ footer i:hover {
     .blog-box {
         display: flex;
         flex-direction: column;
-        align-items: flex-start ;
+        align-items: flex-start;
     }
 
     .blog-img img {
@@ -1236,8 +1367,7 @@ footer i:hover {
         object-fit: cover;
     }
 
-    .blog-img
-    {
+    .blog-img {
         width: 100%;
         margin-right: 0;
         margin-bottom: 30px;
@@ -1266,6 +1396,39 @@ footer i:hover {
     .about-app h1 {
         font-size: 2rem;
     }
+
+    .contact {
+        flex-direction: column;
+    }
+
+    .details {
+        width: 100%;
+        padding: 20px 0;
+    }
+    
+    .map
+    {
+        width: 100%;
+    }
+
+    .form-container {
+        margin: 5px;
+        padding: 15px;
+    }
+
+    .form-container {
+        flex-wrap: wrap;
+    }
+
+    .form-detail form
+    {
+        width: 100%;
+        margin-bottom: 30px;
+    }
+
+
+
+
 
 
 
