@@ -435,14 +435,13 @@ hr {
     width: 30%;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
-    align-items: flex-start;
     flex-wrap: wrap;
+    align-items: flex-start;
     background-image: url("https://img.freepik.com/free-photo/pleased-caucasian-girl-looking-down-sad-black-haired-woman-posing-with-plant_197531-14058.jpg?size=626&ext=jpg&uid=R85205850&ga=GA1.1.1443225275.1688534000&semt=ais");
     height: 30vh;
     background-size: cover;
     background-position: center;
-    padding: 30px;
+    padding: 20px;
     margin-top: 15px;
 }
 
@@ -464,7 +463,7 @@ hr {
     color: #fff;
     font-size: 1rem;
     font-weight: 900;
-    margin-top: 10px;
+    margin: 10px 0;
     color: #c51a07;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
@@ -492,7 +491,7 @@ hr {
 
 .newsText p {
     font-size: 15px;
-    color: #fff;
+    color: #dddddd;
     padding-top: 15px;
     font-weight: lighter;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -1129,7 +1128,7 @@ footer i:hover {
     }
 
     .banner {
-        height: 30vh;
+        height: auto;
     }
 
     .banner h4 {
@@ -1143,7 +1142,7 @@ footer i:hover {
 
     .banner-box {
         min-width: 100%;
-        height: 30vh;
+        height: auto;
         padding: 30px;
         margin-top: 40px;
     }
@@ -1154,10 +1153,11 @@ footer i:hover {
 
     .banner-boxes {
         width: 30%;
+        height: auto;
     }
 
     .banner-boxes h2 {
-        font-size: 1.5rem;
+        font-size: 1rem;
     }
 
     .banner-boxes h3 {
@@ -1166,6 +1166,7 @@ footer i:hover {
 
     .newLetter {
         flex-wrap: nowrap;
+        height: auto;
         padding: 0px;
     }
 
@@ -1183,6 +1184,10 @@ footer i:hover {
 
     .partners img {
         width: 8rem;
+    }
+
+    .page-header {
+        height: 30vh;
     }
 
     .blog {
@@ -1280,10 +1285,6 @@ footer i:hover {
         width: 100%;
     }
 
-    .banner {
-        height: 40vh;
-    }
-
     .banner h2 {
         font-size: 1.4rem;
         text-align: center;
@@ -1314,7 +1315,6 @@ footer i:hover {
     .newLetter {
         flex-wrap: wrap;
         padding: 0px;
-        height: 30vh;
     }
 
     .forms {
@@ -1440,10 +1440,6 @@ footer i:hover {
         width: 7rem;
     }
 
-    .banner-box {
-        height: 50vh;
-    }
-
     .feBox {
         width: 100px;
     }
@@ -1452,17 +1448,13 @@ footer i:hover {
         padding: 5px;
         font-size: 10px;
     }
-
-    .newLetter {
-        height: 50vh;
-    }
-
-    .banner {
-        height: 50vh;
-    }
-
+    
     .page-header {
         height: 40vh;
+    }
+
+    footer p {
+        font-size: 1rem;
     }
 
 }
